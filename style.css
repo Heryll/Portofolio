@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;500;700&family=Cormorant+Infant:wght@300;500;600&display=swap');
 
+
+:root{
+  --main-color: #ffff;
+}
+
 html, body, *{
   font-family: 'Bai Jamjuree', sans-serif;
 }
 
 .my-nav {
-  background-color: #5A1EC2;
+  background-color: #0B031A;
   height: 70px;
   font-size: 18px;
 }
@@ -14,4 +19,26 @@ html, body, *{
   font-size: 3.5em;
   font-weight: 999;
   letter-spacing: 3px;
+}
+
+.title{
+  font-size: 4em;
+  font-weight: 800;
+  letter-spacing: 4px;
+  color:var(--main-color)
+}
+
+.description{
+  font-size: 1.5em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  
+}
+
+.mybg{
+  background-image: url("asset/christian-wiediger-NWFacT2h9JA-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
 }
