@@ -1,0 +1,20 @@
+.container {
+  background-color: paleturquoise;
+  color: red;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+}
+
+#judul {
+  width: 300px;
+  height: 500px;
+  border: 2px solid red;
+}
+
+#teks {
+  text-align: center;
+  font-size: 3em;
+}
