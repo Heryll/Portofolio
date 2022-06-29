@@ -42,3 +42,21 @@ html, body, *{
   background-size: cover;
   height: 500px;
 }
+
+
+.mybg2{
+  background-image: url("asset/annie-spratt-6SHd7Q-l1UQ-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px;
+  width: 200px;
+}
+
+.bgim{
+  background-image: url("asset/brooke-lark-AdMHAf_cdns-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
