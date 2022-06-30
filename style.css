@@ -1,16 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;500;700&family=Cormorant+Infant:wght@300;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;500;700&family=Cormorant+Infant:wght@300;500;600&display=swap");
 
-
-:root{
+:root {
   --main-color: #ffff;
 }
 
-html, body, *{
-  font-family: 'Bai Jamjuree', sans-serif;
+html,
+body,
+* {
+  font-family: "Bai Jamjuree", sans-serif;
 }
 
 .my-nav {
-  background-color: #0B031A;
+  background-color: #0b031a;
   height: 70px;
   font-size: 18px;
 }
@@ -21,48 +22,43 @@ html, body, *{
   letter-spacing: 3px;
 }
 
-.title{
+.title {
   font-size: 4em;
   font-weight: 800;
   letter-spacing: 4px;
-  color:var(--main-color)
+  color: var(--main-color);
 }
 
-.judul{
+.judul {
   font-size: 3em;
   font-weight: 600;
   letter-spacing: 2px;
-  color: #0B031A
+  color: #0b031a;
 }
-.description{
+.description {
   font-size: 1.5em;
   font-weight: 400;
   letter-spacing: 1px;
-  
 }
 
-.mybg{
-  background-image: url("asset/christian-wiediger-NWFacT2h9JA-unsplash.jpg");
+.mybg {
+  background-image: url("asset/background1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 500px;
 }
 
-
-.mybg2{
-  background-image: url("asset/annie-spratt-6SHd7Q-l1UQ-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 150px;
-  width: 200px;
+.carousel-contain {
+  background-color: #0b031a;
+  height: 300px;
 }
 
-.bgim{
-  background-image: url("asset/brooke-lark-AdMHAf_cdns-unsplash.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 350px;
+.subtitle {
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.bordered {
+  border: solid white;
 }
