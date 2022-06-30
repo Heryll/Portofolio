@@ -2,6 +2,7 @@
 
 :root {
   --main-color: #ffff;
+  --second-color: #0b031a;
 }
 
 html,
@@ -61,4 +62,37 @@ body,
 
 .bordered {
   border: solid white;
+}
+
+.subtitle {
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.crop1 {
+  height: 563px;
+  width: 1000px;
+  object-fit: cover;
+}
+.crop2 {
+  height: 563px;
+  width: 1000px;
+  object-fit: cover;
+  object-position: 20% 60%; 
+
+}
+
+.title2 {
+  text-align: center;
+  font-weight: 400;
+  color: antiquewhite;
+}
+.descript1 {
+  color: #0b031a;
+}
+
+.carousel-inner > .caption > p {
+  color: #0b031a;
+  text-dark
 }
