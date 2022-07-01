@@ -13,7 +13,7 @@ body,
 
 .my-nav {
   background-color: #0b031a;
-  height: 70px;
+  min-height: 70px;
   font-size: 18px;
 }
 
@@ -47,7 +47,7 @@ body,
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  min-height: 500px;
 }
 
 .carousel-contain {
@@ -58,10 +58,6 @@ body,
 .subtitle {
   font-weight: 400;
   line-height: 1.5;
-}
-
-.bordered {
-  border: solid white;
 }
 
 .subtitle {
@@ -103,4 +99,8 @@ body,
 .carousel-inner > .caption > p {
   color: #0b031a;
   text-dark
+}
+
+.footertitle{
+  font-weight: 400;
 }
