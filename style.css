@@ -79,7 +79,15 @@ body,
   height: 563px;
   width: 1000px;
   object-fit: cover;
-  object-position: 20% 60%; 
+  object-position: 10% 60%; 
+
+}
+
+.crop3 {
+  height: 563px;
+  width: 1000px;
+  object-fit: cover;
+  object-position: 20% 55%; 
 
 }
 
