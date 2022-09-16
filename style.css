@@ -52,7 +52,9 @@ body,
 
 .carousel-contain {
   background-color: #0b031a;
-  height: 300px;
+  height: 200px;
+  min-height: 100vh;
+
 }
 
 .subtitle {
@@ -67,12 +69,12 @@ body,
 }
 
 .crop1 {
-  height: 563px;
+  height: 500px;
   width: 1000px;
   object-fit: cover;
 }
 .crop2 {
-  height: 563px;
+  height: 500px;
   width: 1000px;
   object-fit: cover;
   object-position: 10% 60%; 
@@ -80,7 +82,7 @@ body,
 }
 
 .crop3 {
-  height: 563px;
+  height: 500px;
   width: 1000px;
   object-fit: cover;
   object-position: 20% 55%; 
